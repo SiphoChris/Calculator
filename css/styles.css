@@ -1,0 +1,42 @@
+#card {
+  display: block;
+  width: 30%;
+  background-color: rgb(47, 43, 43);
+  height: 680px;
+  margin: auto;
+  border-radius: 25px;
+  padding: 10px;
+}
+#screen-card {
+  display: block;
+  margin: 40px 20px;
+  width: 24px;
+  background-color: rgb(169, 207, 207);
+  height: 160px;
+  width: 90%;
+  border-radius: 8px;
+}
+#button-card {
+  display: block;
+  margin: 40px;
+  margin-left: 50px;
+}
+.button {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  border: none;
+  margin: 10px;
+  font-size: 22px;
+}
+.zero {
+  width: 155px;
+  border-radius: 60px;
+}
+.operator {
+  background-color: orange;
+}
+.button:hover{
+  background-color: rgb(43, 102, 102);
+  cursor: pointer;
+}
