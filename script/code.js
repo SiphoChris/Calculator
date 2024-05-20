@@ -9,6 +9,10 @@ function clearScreen(){
     screen.value = ""
 }
 
+function delette(){
+    screen.value = screen.value.slice(0, -1)
+}
+
 result.addEventListener('click', () => {
     screen.value = eval(screen.value)
 })
