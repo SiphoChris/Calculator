@@ -41,3 +41,6 @@
   background-color: rgb(129, 156, 156);
   cursor: pointer;
 }
+.button:active{
+  background-color: rgb(74, 68, 68);
+}
